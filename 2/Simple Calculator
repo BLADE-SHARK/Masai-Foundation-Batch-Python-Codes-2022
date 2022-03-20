@@ -1,3 +1,52 @@
+'''
+///
+Description
+
+Given 2 integersa, band characterc, output the mathematical operation between a and b based upon the operator c.
+
+c can be ( +, -, *, / )
+
+e.g.
+
+2 * 3, then output will be 6, it means 2 is multiplied with 3
+
+6 / 4 , then output will be 1, it means 6 is divided by 4 ( also it is an integer division )
+
+
+Input
+The first line of input contains a, c, b where 'a' and 'b' are integers and 'c' is a character ( operator )
+
+
+
+Constraints:
+
+1<= a <= 100
+
+1<= b <= 100
+
+c = {+, -, *, / }
+
+
+Output
+Output the result after mathematical operation between a and b
+
+
+Sample Input 1 
+
+2 * 3
+Sample Output 1
+
+6
+Hint
+
+In Sample 1:
+
+We multiplied 2 and 3 , so output is 6
+///
+'''
+
+<-- codes --.
+
 a,c,b=map(str,input().split( ))
 x=int(a)
 y=int(b)
